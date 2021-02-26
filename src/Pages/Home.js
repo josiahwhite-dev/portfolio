@@ -68,9 +68,9 @@ function Home() {
       <Content>
         <div />
 
-        <a href="/portfolio">portfolio</a>
-        <a href="/about">about</a>
-        <a href="/experience">experience</a>
+        <a href="#/portfolio">portfolio</a>
+        <a href="#/about">about</a>
+        <a href="#/experience">experience</a>
         <div />
       </Content>
       <LogoHolder style={{ backgroundColor: "white" }}>
