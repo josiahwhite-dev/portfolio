@@ -67,7 +67,7 @@ function Portfolio() {
     <AppWrapper>
       <Content>
         <div>
-          <a href="/">back</a>
+          <a href="#/">back</a>
         </div>
 
         <Project></Project>
