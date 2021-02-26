@@ -18,15 +18,25 @@
   width: auto;
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .content {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr 2fr 1fr;
+  grid-template-columns: 1fr;
   background-color: #61dafb;
   height: 100vh;
+  font-size: 10vh;
+  font-weight: bold;
+}
+
+content:a {
+  padding-left: 30vw;
+}
+
+a {
+  text-decoration: none;
 }
 
 .App-header {
