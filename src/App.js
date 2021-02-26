@@ -11,7 +11,7 @@ import About from "./Pages/About";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter basename={process.env.PUBLIC_URL + "#"}>
         {/* main pages */}
         <Route path="#/" exact component={Home} />
         <Route path="#/portfolio" exact component={Portfolio} />
