@@ -22,6 +22,17 @@ const Content = styled.div`
 
   font-weight: bold;
 
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  animation: 1s ease-out 0s 1 fadeIn;
+
   a {
     font-size: calc(6vh + 2vw);
     padding-left: 12vw;
@@ -59,6 +70,19 @@ const LogoHolder = styled.div`
     100% {
       transform: translate(0vh, 0vh);
     }
+  }
+
+  img {
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    animation: 1s ease-out 0s 1 fadeIn;
   }
 `;
 

@@ -65,14 +65,30 @@ const Splitter = styled.div`
   flex-direction: column;
   text-align: "left";
 
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
   p {
     max-width: 40vw;
     font-weight: 300;
     font-size: calc(2vh + 1vw);
 
+    animation: 2s ease-in 0s 1 fadeIn;
+
     ${media.mobile} {
       max-width: 80vw;
     }
+  }
+
+  a {
+    color: #52deff;
+    animation: 1s ease-out 0s 1 fadeIn;
   }
 `;
 
@@ -84,6 +100,18 @@ const ImageHolder = styled.div`
   flex-grow: 100;
 
   max-width: 50vw;
+
+  img {
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    animation: 2.5s ease-in 0s 1 fadeIn;
+  }
 
   ${media.mobile} {
     max-width: 100vw;
@@ -109,7 +137,7 @@ function Portfolio() {
     <AppWrapper>
       <Content>
         <div>
-          <a href="/">back</a>
+          <a href="#/">back</a>
         </div>
 
         <Project>
@@ -129,6 +157,7 @@ function Portfolio() {
               src={Adsref}
               alt="React Logo"
               style={{ height: "40vh", width: "80vw", marginRight: "10vw" }}
+              className="adsref"
             />
           </ImageHolder>
         </Project>
