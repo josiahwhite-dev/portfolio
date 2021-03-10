@@ -23,6 +23,15 @@ const Content = styled.div`
   height: 100vh;
 
   font-weight: bold;
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  animation: 1s ease-in 0s 1 fadeIn;
 
   a {
     font-size: calc(6vh + 2vw);

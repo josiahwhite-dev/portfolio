@@ -22,6 +22,16 @@ const Content = styled.div`
 
   font-weight: bold;
 
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  animation: 1s ease-in 0s 1 fadeIn;
+
   a {
     font-size: calc(6vh + 2vw);
     margin-left: 5vw;
@@ -39,12 +49,28 @@ const Project = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  a {
+    animation: 2.5s ease-in 0s 1 fadeIn;
+  }
+
   p {
     margin-left: 5vw;
     margin-right: 5vw;
     max-width: 40vw;
     font-weight: 300;
     font-size: calc(2vh + 1vw);
+
+    animation: 4s ease-in 0s 1 fadeIn;
 
     ${media.mobile} {
       max-width: 80vw;
@@ -84,6 +110,19 @@ const LogoHolder = styled.div`
       transform: translate(0vh, 0vh);
     }
   }
+
+  img {
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    animation: 6s ease-in 0s 1 fadeIn;
+  }
 `;
 
 function About() {
@@ -100,7 +139,8 @@ function About() {
             my name is josiah white and I am a computer science student at the
             university of adelaide. I have a passion for building projects with
             real world impact, and am constantly looking at emerging
-            technologies and the possibilities they bring with them <br />
+            technologies and the possibilities they bring with them.
+            <br />
             <br />{" "}
           </p>
         </Project>
