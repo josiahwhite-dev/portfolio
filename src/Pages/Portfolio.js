@@ -73,7 +73,7 @@ const Project = styled.div`
 const Splitter = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: "left";
+  text-align: left;
 
   @keyframes fadeIn {
     0% {
@@ -82,6 +82,11 @@ const Splitter = styled.div`
     100% {
       opacity: 1;
     }
+  }
+
+  max-width: 50vw;
+  ${media.mobile}{
+    max-width: 80vw;
   }
 
   p {
@@ -108,8 +113,9 @@ const ImageHolder = styled.div`
   align-items: center;
   justify-content: center;
   flex-grow: 100;
+  max-width: 30vw;
 
-  max-width: 50vw;
+  padding-left: 15vw;
 
   img {
     @keyframes fadeIn {
@@ -125,6 +131,7 @@ const ImageHolder = styled.div`
 
   ${media.mobile} {
     max-width: 100vw;
+    padding-left: 0vw;
   }
 
   animation: bob 3s infinite ease;

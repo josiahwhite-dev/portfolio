@@ -45,7 +45,7 @@ const Content = styled.div`
 `;
 
 const Project = styled.div`
-  margin-top: 10vh;
+  margin-top: 5vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -136,13 +136,17 @@ function About() {
         <Project>
           <a href="">about</a>
           <p>
-            my name is josiah white and I am a computer science student at the
-            university of adelaide. I have a passion for building projects with
-            real world impact, and am constantly looking at emerging
-            technologies and the possibilities they bring with them.
-            <br />
-            <br />{" "}
+            My name is Josiah White and I am a computer science student at the
+            University of Adelaide. 
+            <br/><br/>
+            I have a passion for building projects with
+            real world impact, especially in the area of education, and keeping
+            up to date with exciting emerging technologies.
+            <br/><br/>
+            Outside of tech, I also speak French poorly, try to keep up my fitness,
+            and tutor English for students from a variety of backgrounds.
           </p>
+          
         </Project>
         <div />
         <div />
