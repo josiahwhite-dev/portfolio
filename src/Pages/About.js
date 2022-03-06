@@ -192,7 +192,6 @@ function About() {
 
         <Project>
           <Splitter>
-            <a href="https://adsref.cc">adsref.cc</a>
             <p>
             My name is Josiah White and I am a computer science student at the University of Adelaide.
             <br/>
