@@ -72,7 +72,7 @@ const Project = styled.div`
   }
 `;
 
-const Splitter = styled.div`
+const ExperienceSplit = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -172,7 +172,7 @@ function Portfolio() {
 
 
         <Project>
-        <Splitter>
+        <ExperienceSplit>
             <a href="https://www.optiver.com/" >Optiver</a>
             <p style={{fontWeight: "bold"}}>Software Developer Internship <br/>Nov 2021 - Feb 2022 </p>
             <MobileInfoSwitcher>
@@ -226,7 +226,7 @@ function Portfolio() {
               </Lists>
             </MobileInfoSwitcher>
             
-          </Splitter>
+          </ExperienceSplit>
           
 
         </Project>
