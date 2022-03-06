@@ -114,9 +114,9 @@ const ImageHolder = styled.div`
   }
 `;
 
-export const Splitter = styled.div`
+const Splitter = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: left;
 
   @keyframes fadeIn {
@@ -156,7 +156,7 @@ function Portfolio() {
     <AppWrapper>
       <Content>
         <div>
-          <a href="#/">back</a>
+          <a href="#/" style={{textDecoration: "underline"}}>back</a>
         </div>
 
         <Project>

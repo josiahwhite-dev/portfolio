@@ -92,9 +92,9 @@ function Home() {
       <Content>
         <div />
 
-        <a href="#/portfolio">portfolio</a>
-        <a href="#/about">about</a>
-        <a href="#/experience">experience</a>
+        <a href="#/portfolio" style={{textDecoration: "underline"}}>portfolio </a>
+        <a href="#/about" style={{textDecoration: "underline"}}>about</a>
+        <a href="#/experience" style={{textDecoration: "underline"}}>experience</a>
         <div />
       </Content>
       <LogoHolder style={{ backgroundColor: "white" }}>
