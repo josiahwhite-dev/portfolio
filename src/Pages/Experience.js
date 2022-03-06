@@ -34,7 +34,7 @@ const Content = styled.div`
 
   a {
     font-size: calc(6vh + 2vw);
-    padding-left: 12vw;
+    padding-left: 6vw;
     text-decoration: none;
     color: #707070;
     animation: bob 3s infinite ease;
@@ -54,7 +54,7 @@ const Content = styled.div`
 
   p {
     font-size: calc(2vh + 1vw);
-    padding-left: 12vw;
+    padding-left: 6vw;
     text-decoration: none;
   }
 
@@ -176,8 +176,27 @@ function Portfolio() {
             <a href="https://www.optiver.com/" >Optiver</a>
             <p style={{fontWeight: "bold"}}>Software Developer Internship <br/>Nov 2021 - Feb 2022 </p>
             <MobileInfoSwitcher>
-              
-              <Lists>
+              <Lists >
+                <p style={{fontWeight: "500"}}>Skills Gained:</p>
+                <ul>
+                  <li>Debugging with gdb</li>
+                  <li>Work with git</li>
+                  <li>Unit testing with gTest and gMock</li>
+                  <li>Integration and system testing</li>
+                  <li>Effective communication with project team &amp; manager</li>
+                  <li>Creating a protocol with protobuf</li>
+                  <li>Async downloading + processing files from AWS S3</li>
+                  <li>Designing interfaces</li>
+                  <li>Creating daemon applications</li>
+                  <li>Reverse-engineering complex systems (C++, C#)</li>
+                  <li>Sending/receiving data between server &amp; clients</li>
+                  <li>Work with company-internal and external C++ libraries</li>
+                  <li>Pair programming &amp; group work building a share-trading bot</li>
+                  <li>Work with modern C++ concepts including smart pointers and lambda functions</li>
+                </ul>
+              </Lists>
+                
+              <Lists style={{paddingRight: "6vw"}}>
                 <p style={{fontWeight: "500"}}>
                 Description:
                 </p>
@@ -205,26 +224,6 @@ function Portfolio() {
                   stakeholders.
                   </p>
               </Lists>
-              <Lists>
-                <p style={{fontWeight: "500"}}>Skills Gained:</p>
-                <ul>
-                  <li>Debugging with gdb</li>
-                  <li>Work with git</li>
-                  <li>Unit testing with gTest and gMock</li>
-                  <li>Integration and system testing</li>
-                  <li>Effective communication with project team &amp; manager</li>
-                  <li>Creating a protocol with protobuf</li>
-                  <li>Async downloading + processing files from AWS S3</li>
-                  <li>Designing interfaces</li>
-                  <li>Creating daemon applications</li>
-                  <li>Reverse-engineering complex systems (C++, C#)</li>
-                  <li>Sending/receiving data between server &amp; clients</li>
-                  <li>Work with company-internal and external C++ libraries</li>
-                  <li>Pair programming &amp; group work building a share-trading bot</li>
-                  <li>Work with modern C++ concepts including smart pointers and lambda functions</li>
-                </ul>
-              </Lists>
-              
             </MobileInfoSwitcher>
             
           </Splitter>

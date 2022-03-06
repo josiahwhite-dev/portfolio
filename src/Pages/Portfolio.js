@@ -38,14 +38,14 @@ const Content = styled.div`
 
   a {
     font-size: calc(6vh + 2vw);
-    padding-left: 12vw;
+    padding-left: 6vw;
     text-decoration: none;
     color: #707070;
   }
 
   p {
     font-size: calc(2vh + 1vw);
-    padding-left: 12vw;
+    padding-left: 6vw;
     text-decoration: none;
   }
 `;
@@ -163,19 +163,22 @@ function Portfolio() {
             <p>
               A dynamic, interactive visualisation web-application to assist
               visual learners like myself to gain a better grasp on core
-              computer science concepts. Written in ReactJS, and covers
+              computer science concepts. Written in javascript using ReactJS, and covers
               structures such as arrays, all the way to algorithms such as
               Dijkstra’s Shortest Path, offering step-by-step annotations of
               functions and behaviours.{" "}
             </p>
           </Splitter>
           <ImageHolder>
+            <a href="https://adsref.cc" >
             <img
               src={Adsref}
+              
               alt="React Logo"
               style={{ height: "40vh", width: "80vw", marginRight: "10vw" }}
               className="adsref"
             />
+            </a>
           </ImageHolder>
         </Project>
 
@@ -193,11 +196,13 @@ function Portfolio() {
             </p>
           </Splitter>
           <ImageHolder>
+          <a href="https://github.com/josiahwhite-dev/datamaps" >
             <img
               src={Datamaps}
               alt="React Logo"
               style={{ height: "70vh", width: "80vw", marginRight: "10vw" }}
             />
+            </a>
           </ImageHolder>
         </Project>
 
@@ -211,6 +216,7 @@ function Portfolio() {
             </p>
           </Splitter>
           <ImageHolder>
+          <a href="https://github.com/josiahwhite-dev/wizards">
             <img
               src={Wizard}
               alt="React Logo"
@@ -220,6 +226,7 @@ function Portfolio() {
                 marginRight: "10vw",
               }}
             />
+            </a>
           </ImageHolder>
         </Project>
 
